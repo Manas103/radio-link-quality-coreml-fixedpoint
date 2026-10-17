@@ -1,0 +1,7 @@
+coremltools version: 9.0
+convert_to: neuralnetwork (.mlmodel)
+output path: coreml\link_degradation.mlmodel
+spec layer count: 17
+input: kpi_window (1, 3, 64)
+Not executed on this machine: Core ML runtime is macOS/iOS-only;
+this Windows machine proves export, not on-device execution.

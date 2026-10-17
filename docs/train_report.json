@@ -1,0 +1,50 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "config": {
+        "epochs": 18,
+        "c1": 16,
+        "c2": 64,
+        "c3": 64,
+        "seed": 0
+      },
+      "val_precision": 0.7878788113594055,
+      "val_recall": 0.07084468752145767,
+      "threshold": 0.9571107029914856
+    },
+    {
+      "attempt": 2,
+      "config": {
+        "epochs": 30,
+        "c1": 16,
+        "c2": 64,
+        "c3": 64,
+        "seed": 1
+      },
+      "val_precision": 0.9272727370262146,
+      "val_recall": 0.13896457850933075,
+      "threshold": 0.9655559062957764
+    }
+  ],
+  "chosen_config": {
+    "epochs": 30,
+    "c1": 16,
+    "c2": 64,
+    "c3": 64,
+    "seed": 1
+  },
+  "threshold": 0.9655559062957764,
+  "test_precision": 0.953125,
+  "test_recall": 0.1831831831831832,
+  "test_support": {
+    "tp": 61,
+    "fp": 3,
+    "fn": 272,
+    "n": 2592,
+    "positives": 333
+  },
+  "target_precision": 0.91,
+  "meets_claim": true,
+  "weight_param_count": 30192
+}

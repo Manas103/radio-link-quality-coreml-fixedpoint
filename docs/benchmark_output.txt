@@ -1,0 +1,5 @@
+$ c/build/forward.exe parity data/parity_windows.f32 data/parity_reference_probs.f32
+n_windows=2000 max_abs_diff=0.0996644721 at index=450 mean_abs_diff=0.00764265303 within_1e-2=1499 within_1e-4=84
+
+$ c/build/forward.exe timing data/parity_windows.f32 20000
+n_iters=20000 median_us=588.200 p10_us=578.200 p90_us=907.300 sink=3755.162934

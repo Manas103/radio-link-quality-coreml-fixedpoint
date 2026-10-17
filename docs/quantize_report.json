@@ -1,0 +1,12 @@
+{
+  "activation_scales": {
+    "input": 6.862382411956787,
+    "relu1": 7.788519382476807,
+    "relu2": 7.6090240478515625,
+    "relu3": 8.109731674194336
+  },
+  "weight_bytes": 30192,
+  "weight_kb": 29.484,
+  "n_parity_windows": 2000,
+  "quantization": "per-output-channel symmetric int8, TFLite-style int32 multiplier + shift requantization"
+}
